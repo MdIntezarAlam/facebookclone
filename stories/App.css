@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+/* T Navbr Component styling From Here*/
+/* navabr Styling */
+.fac-navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+/* Left Section */
+.fac-left-section {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.fac_logo {
+    width: 20%;
+}
+
+.fac-logo .fac_logo {
+    font-size: 50px;
+    color: #0D8CF1;
+}
+
+.fac-search {
+    width: 80%;
+    position: relative;
+}
+
+.input-search {
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 35px;
+    background-color: #f0f2f5;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.search_logo {
+    position: absolute;
+    left: 20;
+    top: 8px;
+    right: 15px;
+}
+
+/* Middle Section Styling */
+.fac-middle-section {
+    width: 50%;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.miidle-icon .middle__icon {
+    font-size: 28px;
+    color: #606770;
+    cursor: pointer;
+}
+
+.middle__icon {
+    position: relative;
+    display: inline-block;
+}
+
+.top_icon1 {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: white;
+    top: 10px;
+    left: 610px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top_icon2 {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: white;
+    top: 9px;
+    left: 760px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.top_icon3 {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: white;
+    top: 10px;
+    left: 927px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.top_icon4 {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: white;
+    top: 10px;
+    left: 1081px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Rihht Section Styling */
+.fac-right-section {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+
+.right-section-icons {
+    margin: 0 15px;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: #cfd7e4;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* All Top Section Is Completed */
+/* T Navbr Component styling  End here*/
+
+
+
+
+
+
+/* This is is App.js Styling */
+.facebook {
+    display: flex;
+    margin-top: 70px;
+}
+
+/* This is sidebar Component Styling */
+.sidebar {
+    width: 25%;
+    position: fixed;
+    top: 70px;
+}
+
+.sidebar__list {
+    display: flex;
+    /* padding: 40px ; */
+    margin-top: 7%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.sidebar__list_img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.sidebar__list_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar__list_name {
+    margin-left: 10px;
+}
+
+/*  sidebar Component Styling End Here*/
+
+/* Stories & Post Styling  */
+.post {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.stories {
+    width: 100%;
+    display: flex;
+}
+
+.stories_col {
+    width: 25%;
+}
+
+.stories_body {
+    height: 200px;
+    padding: 0 10px;
+    padding: 0 6px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stories_body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.stories_body_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+}
+
+.stories_img_top {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid violet;
+}
+
+.stories_img_top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.stories_body_name {
+    position: absolute;
+    bottom: 2px;
+    left: 25px;
+    color: #fff;
+    font-size: 17px;
+}
+
+/* Stories & Post Styling  Ending here */
+
+/* Create Component Styling */
+.create {
+    width: 80%;
+    margin: 16 auto;
+    padding: 15px 15px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+
+.create_first {
+    display: flex;
+    width: 100%;
+}
+
+.crete_first_img {
+    width: 20%;
+}
+
+.crete_first_img span {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.crete_first_img span img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.create_first_input {
+    width: 80%;
+}
+
+.create_first_inputs {
+    width: 100%;
+    padding: 15px 45;
+    border: none;
+    border-radius: 35px;
+    background: #f0f2f5;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.create_second {
+    width: 100%;
+    border-top: 1px solid rgb(190, 186, 186);
+    margin-top: 12px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.create_second_icon {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.color_red {
+    color: red;
+}
+
+.create_second_icon .color_red {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.color_green {
+    color: green;
+}
+
+.create_second_icon .color_green {
+    font-size: 38px;
+    cursor: pointer;
+
+}
+
+.color_orange {
+    color: orange;
+}
+
+.create_second_icon .color_orange {
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
+/* Create Component Styling Ending */
+
+/* Show Post Component Styling */
+.showpost {
+    width: 80%;
+    margin: 15px auto;
+    background: #fff;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.show_header {
+    display: flex;
+    align-items: center;
+}
+
+.show_header_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.show_header_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.show_header_name {
+    margin-left: 12px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.date {
+    color: rgb(160, 144, 144);
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.showpost_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.show_body_text {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.showpost_body_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.show_reaction {
+    border-top: 1px solid rgb(190, 186, 186);
+    border-bottom: 1px solid rgb(160, 150, 150);
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+    cursor: pointer;
+
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+}
+
+.reaction_text {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* ChatBar Component Styling  */
+.chtbar {
+    width: 25px;
+    position: fixed;
+    top: 40%;
+    right:20%;
+}
+.chatbar__list{
+    display: flex;
+    align-items: center;
+}
+.chatbar_list_img{
+    width: 35px;
+    height:35px;
+}
+.chatbar_list_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chatbar_list_name{
+    margin-left:10%;
+}
